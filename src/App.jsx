@@ -1,11 +1,12 @@
 import React from "react";
 import Login from "./components/Login";
+import WelcomePage from "./components/WelcomePage";
 
 
 function App() {
   return (
     <div>
-    <Login />
+    <WelcomePage />
     </div>
     
   );
