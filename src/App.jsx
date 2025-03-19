@@ -1,14 +1,23 @@
-import React from "react";
-import Login from "./components/Login";
-import WelcomePage from "./components/WelcomePage";
-
+import React from 'react';
+import Navbar from './components/NavBar.jsx';
+import Hero from './components/Hero';
+import PopularCategories from './components/PopularCategories';
+import FeaturedFreelancers from './components/FeaturedFreelancers';
+import HowItWorks from './components/HowItWorks.jsx';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-    <WelcomePage />
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <main>
+        <Hero />
+        <PopularCategories />
+        <FeaturedFreelancers />
+        <HowItWorks />
+      </main>
+      <Footer />
     </div>
-    
   );
 }
 
